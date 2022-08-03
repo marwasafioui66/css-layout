@@ -1,0 +1,263 @@
+html{
+    background-color: #ffffff;
+    
+}
+ nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5%;
+    background-color: #ffffff;
+    border: #ffffff;
+    
+
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 1.5rem;
+    
+}
+nav ul li  a{
+    text-decoration: none;
+    color: #ababab;
+    font-size: 1.2rem;
+} 
+a:hover{
+    color: #00ccb1;
+}
+nav h1{
+    color: #00bfa5;
+    font-size: 2.5rem;
+}
+nav h1 span{
+    color: #ababab;
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #00bfa5;
+    font-size: 2rem;
+}
+.para{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.para P{
+    font-size: 18PX;
+    font-style: unset;
+    line-height: 25px;
+    color: #747693;
+    text-align: left;
+    margin-left: 17px;
+}
+.S1 {
+    padding-left: 10% ;
+    padding-right: 10%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    
+}
+.S2 >div{
+    width: 15.5rem;
+    height: 300px;
+    padding-top: 12px;
+    padding-left: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 1rem;
+    
+}
+.S2 {
+    margin-left: 20%;
+    
+}
+.tb1{
+    background-color: #00ccb1;
+    color: white;
+    text-align: left;
+    padding-right: 12px;
+}
+.tb2{
+    background-color: #3d83df;
+    color: white;
+    text-align: left;
+}
+.tb3{
+    background-color: #1b2734;
+    margin-bottom: 2%;
+    color: white;
+    text-align: left;
+}
+.S3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    
+}
+.para2{
+    font-size: 2rem;
+    color: #00bfa5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 8%;
+}
+.image{
+    margin-top: 3%;
+}
+.lien2{
+    margin-right: 3%;
+}
+
+.grid >div {
+    border-radius: 1rem;
+    text-align: center;
+}
+.grid{
+    background-color: #dcf7f6;
+    display: grid;
+    grid-template-columns: repeat(100,1%);
+    grid-template-rows: repeat(100,1%);
+}
+#G2{
+grid-column:50/70;
+background-color: #ffffff;
+grid-row: 5/45;
+padding-top: 1em;
+}
+.G22{
+grid-area: 50/50/95/70;
+background-color: #ffffff;
+grid-row:50/90;
+padding-top: 1em;
+}
+#G3{
+    grid-column:75/95;
+    background-color: #ffffff;
+    grid-row: 5/45;
+    padding-top: 1em;
+    }
+    .G33{
+    grid-area: 50/75/95/95;
+    background-color: #ffffff;
+    grid-row: 50/90;
+    padding-top: 1em;
+    }
+    
+#G1{
+    grid-column:15/45;
+    padding-top: 2rem;
+}  
+
+#G1 p{
+    
+    font-size: 2.5rem;
+    color: #54b79b;
+    font-family: serif;
+    text-align: left;
+}
+
+#G1 #p2{
+    color: rgb(88, 86, 86);
+    font-size: 1rem;
+}
+
+.S4{
+    text-align: center;
+    
+}
+
+.h{
+    font-family: system-ui;
+    color: #42b8a1;
+    font-size: 1rem;
+}
+
+.p{
+    color: rgb(88, 86, 86);
+}
+.S5{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: space-around;
+
+}
+
+.PH{
+    display: flex;
+    justify-content: space-between;
+    border: #00ccb1;
+    color: #ababab;
+}
+.PH p{
+    background-color: #3d83df;
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+.S6{
+    margin-top: 6rem;
+    text-align: center;
+}
+.S6 p{
+    font-size: 2rem;
+}
+.ms h3{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+
+.ms p{
+    font-size: 12px;
+    color: #ababab;
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.join-us__header a{
+   
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+.main-footer .section__inner, .main-footer p {
+    font-size: 12px;
+    color: #ababab;
+    
+}
+.lafin1 p{
+margin-left: 10%;
+    font-size: 15px;
+color: #ababab;
+}
+
+.lafin2 p{
+    margin-bottom: 0.4em;
+    font-size: 14px;
+    color: #ababab;
+    text-align: center;
+}   
